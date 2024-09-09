@@ -1,7 +1,7 @@
 import {Flex, Text} from '@chakra-ui/react'
 import { FaCartPlus } from "react-icons/fa";
 
-const CartWidget = () => {
+export const CartWidget = () => {
     return (
         <Flex alignItems={'center'} height={'100%'} justifyContent={'center'} width={100}>
             <FaCartPlus size={35} color="yellow"/>
@@ -10,4 +10,3 @@ const CartWidget = () => {
     )
 }
 
-export default CartWidget;
